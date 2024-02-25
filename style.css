@@ -1,0 +1,150 @@
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+    color: #202124;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link {
+    width: 100%;
+    text-align: right;
+}
+
+.logo {
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 2%;
+    display: flex;
+    width: 20%;
+}
+
+.textInput {
+        display: flex;
+        min-height: 44px;
+        background: #fff;
+        border: 1px solid #dfe1e5;
+        box-shadow: none;
+        border-radius: 24px;
+        margin-left: 30%;
+        margin-right: 30%;
+        width: 40%;
+        padding: 5px 5px;
+        font-size: 14px;
+        font-family: arial,sans-serif;
+        color: #202124;
+    }
+
+input:focus {
+        outline: 0px;
+    }
+    
+
+div h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    margin: 1%;
+}
+
+form {
+    text-align: center;
+}
+
+.submitBtn{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.submitBtn:hover, .textInput:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+}
+
+.wide {
+    width: 100%;
+    border: solid 1px black;
+    padding-inline: 10px;
+}
+
+label.spaced {
+    min-width: 600px;
+    width: 40%;
+    border: solid 1px black;
+
+}
+
+
+/* some styling (mostly layout) bellow from "https://www.w3schools.com/css/tryit.asp?filename=trycss_form_responsive" */
+
+* {
+    box-sizing: border-box;
+  }
+  
+  input.advanced {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  input.advanced:focus {
+    border: 1px solid #4d90fe;
+  }
+
+  input.advancedBtn {
+    background-color: #4d90fe;
+    border: 1px solid #3079ed;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 2px;
+    float: right;
+    margin-top: 5px;
+  }
+  
+  input.advancedBtn:hover {
+    background-color: #357ae8;
+    border: 1px solid #2f5bb7;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+  
+  .container {
+    padding: 20px;
+  }
+  
+  .col-25 {
+    float: left;
+    width: 20%;
+    margin-top: 6px;
+    text-align: left;
+  }
+  
+  .col-75 {
+    float: left;
+    width: 80%;
+    margin-top: 6px;
+  }
