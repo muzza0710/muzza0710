@@ -50,6 +50,7 @@ input:focus {
 div h1 {
     font-family: 'Roboto', sans-serif;
     margin: 1%;
+    font-size: 10%;
 }
 
 form {
